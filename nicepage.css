@@ -43382,7 +43382,7 @@ margin-left: 240px;
 }
 
 .mySlides-1 {
-background-image: url("./images/my-slide-1.png");
+background-image: url("./my-slide-1.png");
 position: relative;
     background-position: 25% 25%;
 width:100%;
@@ -43393,7 +43393,7 @@ padding: 80px;
 }
 
 .mySlides-2 {
-background-image: url("./images/my-slide-2.png");
+background-image: url("./my-slide-2.png");
 position: relative;
     background-position: 100% 5%;
 width:100%;
@@ -43404,7 +43404,7 @@ padding: 80px;
 }
 
 .mySlides-3 {
-background-image: url("./images/my-slide-3.png");
+background-image: url("./my-slide-3.png");
 position: relative;
     background-position: 25% 25%;
 width:100%;
@@ -43415,7 +43415,7 @@ padding: 80px;
 }
 
 .mySlides-4 {
-background-image: url("./images/my-slide-4.png");
+background-image: url("./my-slide-4.png");
 position: relative;
 background-position: 100% 5%;
 width:100%;
@@ -43426,7 +43426,7 @@ padding: 80px;
 }
 
 .mySlides-5 {
-background-image: url("./images/my-slide-5.png");
+background-image: url("./my-slide-5.png");
 position: relative;
     background-position: 25% 25%;
 width:100%;
@@ -43437,7 +43437,7 @@ padding: 80px;
 }
 
 .mySlides-6 {
-background-image: url("./images/my-slide-6.png");
+background-image: url("./my-slide-6.png");
 position: relative;
 background-position: 100% 5%;
 width:100%;
@@ -43527,7 +43527,7 @@ q {
 /* Blocks */
 
 .grey-box {
-  background-image: url("./images/grey-block.png");
+  background-image: url("./grey-block.png");
 width:100%;
 height: 120px;
 }
@@ -43655,7 +43655,7 @@ height: 120px;
 }
 
 .modalContent {
-  background-image: url("./images/pop-up-background.png");
+  background-image: url("./pop-up-background.png");
   background-size: cover;
   margin: auto;
   padding: 20px;
