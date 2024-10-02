@@ -31187,8 +31187,8 @@ section.u-black:before,
 .u-table-alt-black tr:nth-child(even) {
   color: #ffffff;
   background-color: #000000;
-padding-top: 20px !important;
-padding-bottom: 50px !important;
+  padding-top: 20px !important;
+  padding-bottom: 30px !important;
 }
 .u-input.u-black,
 .u-field-input.u-black,
@@ -43382,7 +43382,7 @@ margin-left: 240px;
 }
 
 .mySlides-1 {
-background-image: url("./my-slide-1.png");
+background-image: url("./images/my-slide-1.png");
 position: relative;
     background-position: 25% 25%;
 width:100%;
@@ -43393,7 +43393,7 @@ padding: 80px;
 }
 
 .mySlides-2 {
-background-image: url("./my-slide-2.png");
+background-image: url("./images/my-slide-2.png");
 position: relative;
     background-position: 100% 5%;
 width:100%;
@@ -43404,7 +43404,7 @@ padding: 80px;
 }
 
 .mySlides-3 {
-background-image: url("./my-slide-3.png");
+background-image: url("./images/my-slide-3.png");
 position: relative;
     background-position: 25% 25%;
 width:100%;
@@ -43415,7 +43415,7 @@ padding: 80px;
 }
 
 .mySlides-4 {
-background-image: url("./my-slide-4.png");
+background-image: url("./images/my-slide-4.png");
 position: relative;
 background-position: 100% 5%;
 width:100%;
@@ -43426,7 +43426,7 @@ padding: 80px;
 }
 
 .mySlides-5 {
-background-image: url("./my-slide-5.png");
+background-image: url("./images/my-slide-5.png");
 position: relative;
     background-position: 25% 25%;
 width:100%;
@@ -43437,7 +43437,7 @@ padding: 80px;
 }
 
 .mySlides-6 {
-background-image: url("./my-slide-6.png");
+background-image: url("./images/my-slide-6.png");
 position: relative;
 background-position: 100% 5%;
 width:100%;
@@ -43527,7 +43527,7 @@ q {
 /* Blocks */
 
 .grey-box {
-  background-image: url("./grey-block.png");
+  background-image: url("./images/grey-block.png");
 width:100%;
 height: 120px;
 }
@@ -43569,7 +43569,6 @@ height: 120px;
 .red-block-reference {
   background:#cb2434;
   padding: 0px 0px 0px 30px;
-    width: 400px;
     height: 100%
 }
 
@@ -43650,8 +43649,13 @@ height: 120px;
   background-color: rgba(0,0,0,0.4);
 }
 
+
+#modalD .modal {
+  padding-top: 50px !important;
+}
+
 .modalContent {
-  background-image: url("./pop-up-background.png");
+  background-image: url("./images/pop-up-background.png");
   background-size: cover;
   margin: auto;
   padding: 20px;
@@ -43708,7 +43712,7 @@ height: 120px;
     box-shadow: none;
     text-shadow: none;
     float: right;
-    margin-top: -2px;
+    margin-top: -1px;
     border: none;
 }
 
@@ -43730,10 +43734,15 @@ height: 120px;
 .pop-up-title h6 {
   text-transform: none !important;
   font-weight:600 !important;
+  text-transform: none !important;
 }
 
 .physical-impact-text p {
   font-size: 18px !important;
+}
+
+.physical-impact-text h6 {
+text-transform: none !important;
 }
 
 
@@ -43749,14 +43758,42 @@ height: 120px;
     margin-right: -20px;
 }
 
+button:hover {
+  cursor:pointer;
+}
 
-/* Footer */
+
+/* References */
 .red-icon-references {
   background-color: #fff;
   padding: 10px;
   border-radius:20px;
 }
+.red-block-icon-ref
+{
+background-color: #cb2434;
+    float: right;
+    margin-top: 15px;
+    margin-right: -35px;
+}
 
+.red-icon-btn-ref {
+  margin-right:30px;
+  margin-top: 0px;
+  width: 300px;
+}
+
+.references-text {
+  float: left;
+  text-transform: none;
+}
+
+.references-modal-content {
+  color: #000;
+  font-size: 15px !important;
+    padding: 20px;
+    text-align: left;
+}
 
 /*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
