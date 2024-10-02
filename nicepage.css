@@ -31187,6 +31187,8 @@ section.u-black:before,
 .u-table-alt-black tr:nth-child(even) {
   color: #ffffff;
   background-color: #000000;
+padding-top:20px;
+padding-bottom:50px;
 }
 .u-input.u-black,
 .u-field-input.u-black,
