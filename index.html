@@ -196,6 +196,7 @@ function currentSlide(index) {
 </script>
 
 
+
         <div class="u-clearfix u-custom-html">
           <table style="float: right; margin-right: -2px;">
             <thead>
@@ -220,14 +221,16 @@ function currentSlide(index) {
 
           <table class="mechanisms-table"><thead>
             <tr>
+              
               <td class="physical-impact">
-                <button id="modalA" class="modalOpenBtn" onclick="openModal('modalA')"><img class="red-block-icon" src="./white-red-touch-screen-icon.png"width="50" height="50"> </button>
-                <img src="./cGVHD_master_icons_Shock_RGB_V1.png"width="300" height="300"> 
+                <button id="modalA" class="modalOpenBtn" onclick="openModal('modalA')">
+                <div><img class="red-block-icon" src="./white-red-touch-screen-icon.png"width="50" height="50"></div> 
+                <div><img src="./cGVHD_master_icons_Shock_RGB_V1.png"width="300" height="300"> </div>
                                   
                                   <div><h4>Physical<br/> Impact</h4></div>
                   <div id="modalA" class="modal">
                     <div class="modalContent">
-                      <span class="modalClose">×</span>
+                      <span class="modalClose">X</span>
                       <div>
                         <table><thead>
                           <tr>
@@ -244,26 +247,27 @@ function currentSlide(index) {
                               
                             </td>
                             <td class="physical-impact-text">
-                              <h6 style="color:#cb2434;"><strong>The inflammation and fibrosis associated with CGVHD</strong></h6>
+                              <h6 style="color:#cb2434;"><strong>THE INFLAMMATION AND FIBROSIS ASSOCIATED WITH cGVHD</strong></h6>
                                         <p style="color:#000;">can lead to multiple physical ailments impacting numerous organs<sup>7-9</sup></p>
                               <p style="color:#000;">Even patients with mild cGVHD symptoms in the lungs, GI tract and joints/fascia have clinically meaningful deterioration in physical QOL<sup>10</sup></p>
                             </td>
                           </tr></thead>
                         </table>
-                        
                       </div>
                     </div>
                   </div>
-                </td>
+                </button>
+                </td> 
 
                 <td class="psychological-impact">
-                  <button id="modalA" class="modalOpenBtn" onclick="openModal('modalB')"><img class="red-block-icon" src="./white-red-touch-screen-icon.png"width="50" height="50"> </button>
-                  <img src="./psychological-impact-icon.png"width="300" height="300"> 
+                  <button id="modalB" class="modalOpenBtn" onclick="openModal('modalB')">
+                  <div><img class="red-block-icon" src="./white-red-touch-screen-icon.png"width="50" height="50"></div>
+                  <div><img src="./psychological-impact-icon.png"width="300" height="300"> </div>
                                     
                                     <div><h4>Psycholigical<br/> Impact</h4></div>
                     <div id="modalB" class="modal">
                       <div class="modalContent">
-                        <span class="modalClose">×</span>
+                        <span class="modalClose">X</span>
                         <div>
                           <table><thead>
                             <tr>
@@ -280,7 +284,7 @@ function currentSlide(index) {
                                 
                               </td>
                               <td class="physical-impact-text">
-                                <h6 style="color:#cb2434;"><strong>OF PATIENTS WITH MODERATE OR SEVERE CGVHD</strong></h6>
+                                <h6 style="color:#cb2434;"><strong>OF PATIENTS WITH MODERATE OR SEVERE cGVHD</strong></h6>
                                           <p style="color:#000;">respectively, have clinically significant psychological distress, including depression or anxiety.<sup>11</sup></p>
                                 <p style="color:#000;">Psychological distress is associated with worsening QOL, physical function and cGVHD symptom burden<sup>11</sup></p>
                               </td>
@@ -290,15 +294,17 @@ function currentSlide(index) {
                         </div>
                       </div>
                     </div>
+                  </button>
               </td>
               <td class="financial-impact">
-                <button id="modalC" class="modalOpenBtn" onclick="openModal('modalC')"><img class="red-block-icon" src="./white-red-touch-screen-icon.png"width="50" height="50"> </button>
-                <img src="./financial-impact-icon.png"width="300" height="300"> 
+                <button id="modalC" class="modalOpenBtn" onclick="openModal('modalC')">
+                  <div><img class="red-block-icon" src="./white-red-touch-screen-icon.png"width="50" height="50"> </div>
+                <div><img src="./financial-impact-icon.png"width="300" height="300"> </div>
                                   
                                   <div><h4>Financial<br/> Impact</h4></div>
                   <div id="modalC" class="modal">
                     <div class="modalContent">
-                      <span class="modalClose">×</span>
+                      <span class="modalClose">X</span>
                       <div>
                         <table><thead>
                           <tr>
@@ -315,7 +321,7 @@ function currentSlide(index) {
                               
                             </td>
                             <td class="physical-impact-text">
-                              <h6 style="color:#cb2434;"><strong>OF PATIENTS WITH CGVHD ARE ABLE TO RETURN TO WORK</strong></h6>
+                              <h6 style="color:#cb2434;"><strong>OF PATIENTS WITH cGVHD ARE ABLE TO RETURN TO WORK</strong></h6>
                                         <p style="color:#000;">This is associated with decreased QOL, activity leveland physical and mental functioning<sup>12,13</sup></p>
                             </td>
                           </tr></thead>
@@ -324,6 +330,7 @@ function currentSlide(index) {
                       </div>
                     </div>
                   </div>
+                  </button>
               </td>
             </tr></thead>
           </table>
@@ -336,26 +343,26 @@ function currentSlide(index) {
           <table><thead></thead>
             <tr>
               <td class="red-block-reference">
-                <div>
-                  <button id="modalD" class="modalOpenBtn red-icon-btn" onclick="openModal('modalD')"><img class="red-block-icon" src="./red-round-touch-screen-icon.png"width="50" height="50"> </button>
-                                    <div><p><strong>References</strong></p></div>
+                <button id="modalD" class="modalOpenBtn red-icon-btn-ref" onclick="openModal('modalD')">
+                  <div><img class="red-block-icon-ref" src="./red-round-touch-screen-icon.png"width="50" height="50"> </div>
+                                    <div class="references-text"><p><strong>References</strong></p></div>
                     <div id="modalD" class="modal">
                       <div class="modalContent-references">
-                        <span class="modalClose">×</span>
+                        <span class="modalClose">X</span>
                         <div>
 
                           <table style="margin-right: -2px;">
                             <thead>
                               <tr>
                                 <td class="red-block-slant-ref-header">
-                                  <h5 style="text-transform: none;"><strong>References</strong></h5>
+                                  <h5 class="references-text"><strong>References</strong></h5>
                                 </td>
                               <td class="black-block-slant-references"></td>
                               </tr>
                             </thead>
                           </table>
 
-                                <p style="color:#000; font-size: 15px; padding:20px;">
+                                <p class="references-modal-content">
                                 
 1. Hart, D., et al. Qualitative Study to Explore the Impact of cGvHD on Patient and Carer HRQoL. Poster presented at: 50th Annual Meeting of the European Society for Blood and Marrow Transplantation (EBMT); April 2024; Glasgow, Scotland.
 <br>
@@ -385,13 +392,13 @@ function currentSlide(index) {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </button>
               </td>  
               <td class="black-block-footer"> 
                 <table><thead>
                   <tr>
-                    <td><p style="font-size:15px; padding-left: 15px;">cGVHD, chronic graft-versus-host disease.
-                     <br> MAT-XU-2402976 (v1.0) September 2024</p></td>
+                    <td><p style="font-size:15px; padding-left: 15px;">cGVHD, chronic graft-versus-host disease. <sup>a</sup>This study enrolled 10 patients.
+                     <br> MAT-XU-2402976 (v1.0) October 2024</p></td>
                     <td style="width:10%;"><img src="./sanofi-logo.png"width="150" height="50"></td>
                   </tr></thead>
                 </table>
@@ -425,6 +432,7 @@ function currentSlide(index) {
    openModal(currentID);
  }
  
+ 
  // When the user clicks anywhere outside of the modal or the X, close
  window.onclick = function(event) {
    if (event.target == currentModal || event.target.getAttribute('class') == 'modalClose') {
@@ -432,6 +440,10 @@ function currentSlide(index) {
    }
  }
  </script>
+
+ 
+
+ 
   
 
     
